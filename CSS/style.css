@@ -1,0 +1,160 @@
+*{
+margin:0;
+padding: 0;
+font-family: 'Comic Neue', cursive;
+}
+.pagina{
+    width: 1050px;
+    height: 700px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin: auto;
+}
+.navegador{
+    height: 60px;
+    width: 1050px;
+    background-color: lightgray;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+.titulo-h1{
+
+}
+
+
+
+.search{
+    height: 30px;
+    width: 400px;
+    background-color: white;
+    border: 2px black solid;
+    padding: 2px;
+    
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+    font-weight:bolder;
+    font-size: medium;
+    color: aliceblue;
+    background-color: rgb(54, 124, 204);
+    border: black solid 1px;
+    padding: 4px;
+    webkit-box-shadow: 6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+    moz-box-shadow:    6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.body{
+    width: 1050px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+                              /* CONTENEDORE*/
+.contenedores-left{
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.contenedor1{
+    width: 700px;
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.contenedor2{
+    width: 700px;
+    height: 200px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.contenedor-rigth{
+    width: 300px;
+    height: 180px;
+    border: 3px solid black;
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+                                            /* CONTENEDORE*/
+/* TEXTO CONTENEDORES*/
+
+.lista-cntr1 {      /*TEXTO CONTENEDOR 1*/
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-cntr1 li{    /*TEXTO CONTENEDOR 1 ENDS*/
+    margin-top: 10px;
+
+}
+
+.lista-cntr2 {      /*TEXTO CONTENEDOR 2*/
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-cntr2 li{    /*TEXTO CONTENEDOR 2 ENDS*/
+    margin-top: 10px;
+
+}
+
+/* TEXTO CONTENEDORES ENDS*/
+
+                        /*BOTONES*/
+.boton-cntr{
+    width: 70px;
+    height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(252, 252, 144);
+    border: 2px solid black;
+    webkit-box-shadow: 6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+    moz-box-shadow:    6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+}
+.boton-cntr3{
+    width: 150px;
+    height: 35px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: 2px solid black;
+    webkit-box-shadow: 6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+    moz-box-shadow:    6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         6px 6px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+                         /*BOTONES*/
